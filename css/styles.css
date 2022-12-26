@@ -14,7 +14,7 @@
   background-color: hsl(270deg, 20%, 96%);
   overflow: hidden;
 }
-.container__bg {
+.container__bg, .container__bg2 {
   width: 375px;
   height: 550px;
   top: -64px;
@@ -23,6 +23,9 @@
   z-index: 0;
   background-image: linear-gradient(to top, hsl(264deg, 100%, 61%), hsl(293deg, 100%, 63%));
   border-radius: 0 0 70% 50%;
+}
+.container__bg2 {
+  display: none;
 }
 .container .primary {
   width: 247px;
@@ -220,6 +223,15 @@
     height: 750px;
     left: -100px;
     border-radius: 0 0 250px 250px;
+  }
+  .container__bg2 {
+    display: block;
+    width: 520px;
+    height: 650px;
+    top: 150px;
+    left: 77.5%;
+    opacity: 0.03;
+    border-radius: 250px 250px 0 0;
   }
   .container .primary {
     margin: 148px 0 0 360px;

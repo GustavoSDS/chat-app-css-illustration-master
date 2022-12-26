@@ -33,7 +33,7 @@ $Font-Family: 'Rubik', sans-serif
     background-color: $Light-Grayish-Violet
     overflow: hidden
 
-    &__bg
+    &__bg, &__bg2
         width: 375px
         height: 550px
         top: -64px
@@ -42,6 +42,8 @@ $Font-Family: 'Rubik', sans-serif
         z-index: 0
         background-image: linear-gradient(to top, $Light-Violet, $Light-Magenta)
         border-radius: 0 0 70% 50%
+    &__bg2
+        display: none
 
     .primary
         width: 247px
@@ -203,6 +205,14 @@ $Font-Family: 'Rubik', sans-serif
             height: 750px
             left: -100px
             border-radius: 0 0 250px 250px
+        &__bg2
+            display: block
+            width: 520px
+            height: 650px
+            top: 150px
+            left: 77.5%
+            opacity: .03
+            border-radius: 250px 250px 0 0            
 
         .primary
             margin: 148px 0 0 360px
@@ -215,7 +225,7 @@ $Font-Family: 'Rubik', sans-serif
             justify-content: center
 
             &__title,&__description
-                text-align: left 
+                text-align: left
 
             &__description
                 width: 441px
