@@ -1,0 +1,17 @@
+
+@mixin message($width, $height, $brRadius,  $brRadiusRight, $brRadiusLeft, $color, $bgColor)
+    max-width: $width
+    padding: 8px
+    border-radius: $brRadius $brRadius $brRadiusRight $brRadiusLeft
+    color: $color
+    background-color: $bgColor
+    font-size: 8px
+    border: none
+    @if $height == auto
+        height: auto
+    @else 
+        height: $height
+        &::placeholder
+            padding-left: 12px
+            color: $color
+         
