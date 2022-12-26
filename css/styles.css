@@ -11,7 +11,7 @@
   height: 936px;
   margin: auto;
   position: relative;
-  background-color: hsl(270deg, 20%, 96%);
+  background-color: hsl(0deg, 0%, 98%);
   overflow: hidden;
 }
 .container__bg, .container__bg2 {
@@ -220,14 +220,14 @@
   }
   .container__bg {
     width: 520px;
-    height: 750px;
+    height: 770px;
     left: -100px;
     border-radius: 0 0 250px 250px;
   }
   .container__bg2 {
     display: block;
     width: 520px;
-    height: 650px;
+    height: 670px;
     top: 150px;
     left: 77.5%;
     opacity: 0.02;
